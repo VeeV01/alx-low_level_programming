@@ -21,7 +21,7 @@ int main(void)
 	putchar(i);
 	putchar(k);
 
-	if (i == '8' && p == '9')
+	if (i == '8' && k == '9')
 	continue;
 
 	putchar(',');
@@ -29,7 +29,7 @@ int main(void)
 	}
 	}
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
