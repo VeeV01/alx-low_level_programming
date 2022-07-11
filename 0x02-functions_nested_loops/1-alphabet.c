@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - A program that prints the alphabet, in lowercase, followed by a new line.
- * Return: Always 0 (Success)
+ * Return: Nothing
  */
 
 void print_alphabet(void)
@@ -11,7 +11,5 @@ void print_alphabet(void)
 
 	for (k = 'a'; k <= 'z'; k++)
 	_putchar(k);
-	_putchar('\n');
-
-	return (0);
+	_putchar('\n')
 }
