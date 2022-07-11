@@ -10,7 +10,7 @@ int main(void)
 	char putch[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int c;
 
-	for (c = 0; c < 8; c+)
+	for (c = 0; c < 8; c++)
 	{
 	_putchar(putch[c]);
 	}
